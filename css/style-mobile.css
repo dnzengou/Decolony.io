@@ -3,39 +3,55 @@
     templated.co @templatedco
     Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
-
 body
 {
 	margin-top: 0;
-	font-size: 9.50pt;
+	font-size: 9pt;
 	letter-spacing: 0;
 }
 
 h2, h3, h4, h5, h6
 {
+	
 }
 
 h2
 {
 	letter-spacing: normal !important;
 	font-size: 1.5em !important;
+	
 }
 
 h3
 {
 	font-size: 1.00em !important;
+
 }
 
 .container
 {
-	padding: 0px 15px;
+	padding: 0px 10px;
+	
+}
+
+.container h1
+{
+	
+	margin-left: -3.7em;
+	
+}
+.container midP
+{
+	
+	width: 1em;
+	
+	
 }
 
 
 /* Sections/Articles */
 
-	section,
-	article
+	section,article
 	{
 		clear: both;
 		margin: 2em 0em 2em 0em !important;
@@ -87,23 +103,27 @@ h3
 
 	#logo {
 		position: static;
-		padding: 6em 0em 4em 0em;
+		padding: 2em 0em 4em 0em;
 		text-align: center;
 	}
 	
 	#logo h1 a {
-		padding-top: 3em;
+		padding-top: 2em;
 		letter-spacing: -1px;
 		text-decoration: none;
 		text-transform: uppercase;
-		font-size: 2.50em;
-		font-weight: 900;
+		font-size: 2.4em;
+		font-weight: 800;
 		color: #FFF;
+		margin-left: 1em;
+			
 	}
 	
 	#nav
 	{
 		display: none;
+	
+		
 	}
 
 /*********************************************************************************/
@@ -166,7 +186,7 @@ h3
 
 #navPanel
 {
-	background: #101214;
+	background: #15332b;;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #888;
@@ -252,6 +272,38 @@ h3
 		overflow: hidden;
 		padding: 4em 0em 2em 0em;
 	}
+	#featured-wrapper1 
+	{
+		overflow: hidden;
+		padding: 2em 0em 2em 0em;
+		font-size: 0.8em;
+	}
+	#featured-wrapper1 img
+	{
+		overflow: hidden;
+		padding: 2em 0em 2em 0em;
+		font-size: 0.8em;
+		width: 330px;
+		height: 300px;
+	}
+
+	
+	#featured-wrapper2 h1
+	{
+		overflow: hidden;
+		font-size: 1.2em;
+		padding: 4em 0em 2em 0em;
+	}
+	#featured-wrapper2 img
+	{
+		overflow: hidden;
+		padding: 2em 0em 1em 0em;
+		font-size: 0.8em;
+		margin-left: 2em;
+		width: 380px;
+		height: 300px;
+	}
+
 
 /* Sidebar */
 
@@ -275,6 +327,7 @@ h3
 
 	#copyright
 	{
+	
 	}
 
 
