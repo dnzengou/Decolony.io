@@ -15,8 +15,6 @@
 .default_color_text {
     color: #2196F3 !important
 }
-
-
 /* #2196F3 */
 
 .icon-block {
@@ -68,14 +66,14 @@
 
 .span_h2 {
     font-weight: 300;
-    color: #add8c7;
+    color: #20aa85;
 }
 
 
 /* #2196F3 */
 
 .text_b {
-    color: #82a295;
+    color: #20aa85;
 }
 
 
@@ -87,7 +85,7 @@
 }
 
 .promo i {
-    color: #82a295;
+    color: #20aa85;
     /* #2196F3 */
     font-size: 7rem;
     display: block;
