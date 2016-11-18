@@ -20,7 +20,7 @@
 
         _.initial = {
             revealElement: 'body',
-            revealPosition: 'bottom', /* top */
+            revealPosition: 'center', /* top */
             padding: 0,
             duration: 600,
             easing: 'swing',
