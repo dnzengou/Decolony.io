@@ -90,6 +90,15 @@
     font-size: 7rem;
     display: block;
 }
+.card-image{
+	width:100%;
+	height: 240px;
+}
+
+.card-title{
+padding: 1px 1px;
+font-weight: 300;
+}
 
 .card-content a {
     color: #82a295;
