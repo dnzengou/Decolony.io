@@ -1,279 +1,311 @@
-<!DOCTYPE HTML>
-<!--
-	updated 10th Nov
-	MegaCorp by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-	
-		<title>DECOLONY.IO</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="user-scalable=yes,width=device-width,initial-scale=1">
-		
-		
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" />
-		<!-- css links for different websites -->
-		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-		<link rel="stylesheet" type="text/css" media="screen and (max-width: 360px)" href="style-mobile.css">
-		<link rel="stylesheet" type="text/css" media="screen and (min-width: 361px) and (max-width: 480px)" href="style-1000px.css">
-		<link rel="stylesheet" type="text/css" media="screen and (min-width: 481px)" href="style-desktop.css">
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-panels.min.js"></script>
-		<script src="js/init.js"></script>
 
-	<!-- Add Google Maps -->
-		<script src="https://maps.googleapis.com/maps/api/js"></script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#2196F3">
+    <title>DECOLONY</title>
 
-		<script>
-		<!-- Google Map Location -->
-		var myCenter = new google.maps.LatLng(51.517598,-0.082235);
+    <!-- CSS  -->
+    <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
+    <link href="min/custom-min.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" type="" rel="stylesheet">
 
-			function initialize() {
-			var mapProp = {
-				center: myCenter,
-				zoom: 12,
-				scrollwheel: false,
-				draggable: false,
-				mapTypeId: google.maps.MapTypeId.ROADMAP
-			};
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="img/favicons/manifest.json">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
 
-		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    <!-- ===========================
+    FONTS & ICONS
+    =========================== -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Kristi|Alegreya+Sans:300' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-		var marker = new google.maps.Marker({
-			position: myCenter,
-		});
 
-		marker.setMap(map);
-		}
+    <!-- Material ScrollTop stylesheet -->
+    <link rel="stylesheet" href="css/material-scrolltop.css">
 
-		google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel-noscript.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-desktop.css" />
-		</noscript>
-	</head>
-	<body class="homepage">
-		<!-- Navbar (sit on top) -->
-		
-	
-		<!-- Header -->
-		<div class="w3-top">
-			<div id="header" class="header-modifer w3-teal">
-            
-            	<div id="logo" class="header-modifer"><h1><a href="#">DECOLONY.io</a></h1></div>
-                <nav id="nav" class="header-modifer">
-                    <ul>
-                        <li class="current_page_item"><a href="index.html">HOME</a></li>
-                        <li><a href="#">CLIENT</a></li>
-                        <li><a href="#">SOCIAL</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-					
-                    </ul>
-                </nav>
-                
-            </div>		
-		</div>
-		
-		<div id="header-wrapper">
-			<div id="banner">
-				<div class="container">
-					<div class="row">
-						<section class="12u">
-							<header>
-								<h2 class ="typeEffect">It takes a revolution to make a solution<span>|</span></h2>
-								<span class="byline"> like startups, but better!<span>|</span></span>
-							</header>
-							<!--<a href="#" class="button button-alt">Read More</a>-->
-						</section>
-					</div>
-				</div>
-			</div>			
+</head>
 
-		</div>
-		<!-- Header Ends Here -->
+<body id="top" class="scrollspy">
 
-		<!-- Featured Area -->
-			<div id="featured-wrapper">
-				<div class="container">
-					<div class="row double">
-					
-                        <section class="4u">
-                           <header>
-	                           <h2>Sweet rewards</h2>
-                           </header>
-                            <span class="pennant"><span class="fa fa-gift"></span></span>
-                            <p>We take business making, and deconstruct it to its core: ideas and projects. </p>
-                       </section>
-                        <section class="4u">
-                            <header>
-	                            <h2>POC</h2>
-                            </header>
-                            <span class="pennant"><span class="fa fa-rocket"></span></span>
-                            
-                            <p>organizations are decentralized, agile, inclusive and evolutive.</p>
-                        </section>
-                        <section class="4u">
-                            <header>
-	                            <h2>Cash Flow</h2>
-                            </header>
-                            <span class="pennant"><span class="fa fa-money"></span></span>
-                            
-                            <p>Aim is to bring projects from ideas to reality. We get things done, simply. So you can enjoy a well deserved sweet reward.</p>
-                        </section>
-					
-					</div>
-				</div>
-			</div>
-			
-			
-			
-		<!-- Featured2 wrapper -->
-	
-		<div id="featured-wrapper1">
-			
-				<div class="container">
-					<div class="row double">
-					    <section class="8u">
-                           <h1> Join the revolution of 21st Century</h1>
-							<p class= "midP"> We take business construction process, deconstruct it, bring it to the people. Let the revolution begin!</p>
-							
-							<header>
-							<h2>Generating ideas</h2>
-                            </header>
-						   <div class="w3-card-4 w3-hover-shadow">
-								<img src="justA.jpg" alt="distributed">
-									<div class="w3-container w3-center w3-grey">
-										<p>Decisions are made democratically; everybody has a voice. The greater your expertise, the more influence you have.</p>
-									</div>
-							</div>
-                        </section>
-                        <section class="8u">
-                            <header>
-	                            <h2>Inspiring Agile Work</h2>
-                            </header>
-							
-                            <div class="w3-card-4 w3-hover-shadow">
-								<img src="agile.png" alt="distributed" width="450px" height="400px">
-									<div class="w3-container w3-center w3-grey ">
-										<p>As you contribute to colonies, your every action demonstrates your skill and expertise. Over time you build a reputation which demonstrates exactly how awesome you are compared to everyone else.</p>
-									</div>
-							</div>
-                            
-						</section>
-                       
-					</div>
-				</div>
-				
-			</div>
-				
-		
-		<!-- Featured2 Ends Here -->
+    <!-- Pre Loader -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
-		<!-- Feature3 Ends Here -->
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
 
-		<div id="featured-wrapper2">
-			<div class="w3-container">
-					<div class="row double">
-						<h1>Innovative approach to the current way</h1>
-					   <section class="4u">
-                           <header>
-								<h2>It's teamwork</h2>
-                            </header>
-							<div class="w3-card-8">
-								<img src="teamWork.jpg" alt="teamwork" width="400px" height="300px">
-									<div class="w3-container w3-center">
-										<p>Decisions are made democratically; everybody has a voice.</p>
-									</div>
-							</div>
-						</section>
-						<section class="4u">
-                           	<header>
-								<h2>It's diverse</h2>
-                            </header>
-						   <div class="w3-card-8">
-								<!--<a href="http://www.freepik.com/free-vector/company-team-pack-in-flat-design_945821.htm">-->
-								<img src="diverse.jpg" alt="diversePic" width="400px" height="300px">
-								</a>
-								<!-- the pic taken from <a href="http://www.freepik.com/free-vector/company-team-pack-in-flat-design_945821.htm">Designed by Freepik</a>-->
-									<div class="w3-container w3-center">
-										<p>Everyone is included</p>
-									</div>
-							</div>
-                        </section>
+    </div>
 
-                        <section class="4u">
-                            <header>
-	                            <h2>It's distributed</h2>
-                            </header>
-							
-                            <div class="w3-card-8">
-								<img src="distributed.jpg" alt="teamWork" width="390px" height="300px">
-									<div class="w3-container w3-center">
-										<p> Power to make decision lies with the team.</p>									
-									</div>
-							</div>
-                        </section>
-                       
-					</div>
-				</div>
-				
-			</div>
-		
-		<!-- Page -->
-        
-        	
-            
-		<!-- /Page -->
-
-		
-			
-		<!-- Contact Section -->
-		<!--	
-		<div class="w3-container w3-padding-32" id="contact">
-			<h3 class="w3-border-bottom w3-border-light-grey w3-padding-12">Contact</h3>
-			<p class="w3-border-bottom w3-border-light-grey w3-padding-12">Got any queries?</p>
-			
-			<input class="w3-input" type="text" placeholder="Name">
-			<input class="w3-input w3-section" type="text" placeholder="Email">
-			<input class="w3-input w3-section" type="text" placeholder="Subject">
-			<input class="w3-input w3-section" type="text" placeholder="Comment">
-				<button class="w3-btn w3-teal w3-section">
-					<i class="fa fa-paper-plane"></i> SEND 
-				</button>
-		
-		  
-<!-- End page content -->
-
-<!-- Google Map -->
-<div id="googleMap" class="w3-grayscale" style="width:100%;height:400px; margin-top=16px" ></div>
-<script src="https://cdn.smooch.io/smooch.min.js"></script>
-    <script>
-        Smooch.init({
-            appToken: 'd8a3vnj271wpaduatirut3yte'
-        });
-    </script>
-
-<!-- Copyright -->
-		
-		
-            <div id="copyright" class="w3-container">
-                <p> Follow us </p>
-				<br>
-				<span class="pennant"><span class="fa fa-youtube-square"></span></span>
-				<span class="pennant"><span class="fa fa-facebook-square"></span></span>
-				<span class="pennant"><span class="fa fa-instagram"></span></span>
-				<span class="pennant"><span class="fa fa-twitter-square"></span></span>
-				
+    <!--Navigation-->
+    <div class="navbar-fixed">
+        <nav id="nav_f" class="default_color" role="navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" id="logo-container" class="brand-logo"><img src="img/logo-white.png" </a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><a href="#why">Why</a></li>
+                            <li><a href="#how">How</a></li>
+                            <li><a href="#what">What</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <ul id="nav-mobile" class="side-nav">
+                            <li><a href="#why">Why</a></li>
+                            <li><a href="#how">How</a></li>
+                            <li><a href="#what">What</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                </div>
             </div>
-		
-		
-		</div>
+        </nav>
+    </div>
+
+    <!--Hero-->
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <h1 class="text_h center header cd-headline letters type">
+                <span>It takes a revolution </span><br>
+                <span>to make a </span><br>
+                <span class="cd-words-wrapper waiting">
+                <b class="is-visible">business</b>
+                <b> solution</b>
+                <b> revolution</b>
+            </span>
+            </h1>
+        </div>
+    </div>
+
+    <!--Intro and service-->
+    <div id="why" class="section scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="center header text_h2">Talent is highly distributed, <br>yet opportunity highly centralised. <br>Built around projects and ideas, <br>DECOLONY is like startups. But better. <br>Crowd thinking and co-creation is happening. </h3>
+                    <h2 class="center header text_h2"><span class="span_h2"> Join us now ! </span></h2>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+
+        <!--Parallax-->
+        <div class="parallax-container">
+            <div class="parallax"><img src="img/bckg-green.png"></div>
+        </div>
+
+
+        <br><br>
+        <br><br>
+
+        <!--Features-->
+        <div id="work" class="section scrollspy">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2 class="center header text_b">
+                            </span>
+                        </h2>
+
+                        <div class="col s12 m4 l4">
+                            <div class="center promo promo-example">
+                                <i class="material-icons">lightbulb_outline</i>
+                                <h5 class="promo-caption"></h5>
+                                <p class="light center">We take organization structures, deconstruct it to the core: ideas and projects, around which teams are formed. </p>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            <div class="center promo promo-example">
+                                <i class="material-icons">bubble_chart</i>
+                                <h5 class="promo-caption"></h5>
+                                <p class="light center"> organizations are decentralized, agile, inclusive and evolutive.</p>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            <div class="center promo promo-example">
+                                <i class="material-icons">card_giftcard</i>
+                                <h5 class="promo-caption"></h5>
+                                <p class="light center"> Aim is to bring projects from ideas to reality. We get things done, simply. So you can enjoy a well deserved sweet reward. </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <br><br>
+            <br><br>
+
+
+            <!--How-->
+            <div id="why" class="section scrollspy">
+                <div class="container">
+                    <h2 class="center header text_b">Innovative approach to the current way </h2>
+                    <div class="row">
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="img/team-work.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">It's team work <i class="mdi-navigation-more-vert right"></i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons">record_voice_over</i></span>
+                                    <p>Decisions are made democratically; everybody has a voice. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="img/Distributed-exchange.png">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">It's distributed <i class="mdi-navigation-more-vert right"></i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons">device_hub</i> <i class="mdi-navigation-close right"></i></span>
+                                    <p>Balanced individualism leads to decentralized collectivism. Power to make decision lies with the team. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4 l4">
+                            <div class="card">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="img/diverse.png" alt! "http://www.freepik.com/free-vector/company-team-pack-in-flat-design_945821.htm">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">It's diverse <i class="mdi-navigation-more-vert right"></i></span>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4"><i class="material-icons">equalizer</i> <i class="mdi-navigation-close right"></i></span>
+                                    <p>Everyone is included. Tech and non technical profiles, regardless of gender, culture and awesomeness.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!--About-->
+            <div id="what" class="section scrollspy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12">
+                            <h2 class="center header text_b">What we do </span>
+                            </h2>
+                            <h3 class="center header text_h2">A collaborative platform that leverages the power of crowdsourcing, a distributed ledger of trust, and project management principles.</h3>
+                            <br><br>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--search-app-iframe-->
+                <!--<div class="section scrollspy" id="team">
+                    <div class="container">
+                        <h2 class="center header text_b">Data Visualisation</h2>
+                        <div class="row">
+                            <iframe src='' width='100%' height='450' style='border: 0px; overflow: hidden; max-width: 1050px; width: 1px; min-width: 100%;' scrolling='yes' frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>-->
+
+
+                <br><br>
+
+
+                <!--Footer-->
+                <!--<footer id="contact" class="page-footer default_color scrollspy">-->
+                <footer id="contact" class="page-footer blue-grey blue-grey-2" style="margin-top: 0px;">
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="col l6 s12">
+                                <h5 class="white-text">About Us</h5>
+                                <p class="grey-text text-lighten-4">We are a small team of developer, engineer and architect who want to trade the existing colonial model for the crowd-sourced version, therefore improving the way organizations manage projects within teams and get things
+                                    done.
+                                </p>
+                                <h6 class="light white-text half-line">By creating your account and using decolony, you are agreeing to our <a href="/termsofservice-lb.html" target="_blank" style="font-weight: 700; text-decoration: underline;">Terms of Service</a> and <a href="/#" target="_blank"
+                                        style="font-weight: 700; text-decoration: underline;">Privacy Policy</a>. If you do not agree, you cannot use our services.</h6>
+                            </div>
+
+
+                            <div class="col l3 s12">
+                                <h5 class="white-text">By <a class="white-text" href="http://decolony.io">decolony.io</a></h5>
+                                <ul>
+                                    <li>
+                                        <a class="white-text" href="http://m.me/#">
+                                            <i class="material-icons">message</i> fb message us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col l3 s12">
+                                <h5 class="white-text">Socials</h5>
+                                <ul>
+                                    <li>
+                                        <a class="white-text" href="https://www.twitter.com/#">
+                                            <i class="small fa fa-twitter-square white-text"></i> twitter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="white-text" href="https://www.facebook.com/#">
+                                            <i class="small fa fa-facebook-square white-text"></i> facebook
+                                        </a>
+                                    </li>
+                                    <li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+                    <footer class="page-footer blue-grey blue-grey-2" style="margin-top: 0px;">
+
+
+                        <div class="footer-copyright">
+                            <div class="container">
+                                Made with <i class="material-icons" style="color:pink">favorite_border</i>by <a class="white-text text-lighten-3" href="http://desireyavro.com">desireyavro</a>
+                            </div>
+                        </div>
+                    </footer>
+
+
+                    <!--  Scripts-->
+                    <script src="min/plugin-min.js"></script>
+                    <script src="min/custom-min.js"></script>
+
+                    <!-- material-scrolltop button -->
+                    <button class="material-scrolltop" type="button"></button>
+
+                    <!-- material-scrolltop plugin -->
+                    <script src="js/material-scrolltop.js"></script>
+
+                    <!-- Initialize material-scrolltop with (minimal) -->
+                    <script>
+                        $('body').materialScrollTop();
+                    </script>
+
+                    
 	<!-- smooch.io messaging app -->
  <script src="https://cdn.smooch.io/smooch.min.js"></script>
     <script>
@@ -282,13 +314,6 @@
         });
     </script>
 
-<!-- Footer <footer class="w3-center w3-teal w3-padding-16">
-  <p>Powered by <a href="#" target="_blank" class="w3-hover-text-blue">The blockchain labs co.</a></p>
+</body>
 
-  </footer>
--->
-
-
-
-	</body>
 </html>
